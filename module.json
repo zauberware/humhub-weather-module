@@ -1,0 +1,10 @@
+{
+    "id": "weather",
+    "name": "HumHub Weather Widget",
+    "description": "Display a weather widget in the dashboard.",
+    "keywords": ["weather", "widget"],
+    "version": "0.1",
+    "humhub": {
+        "minVersion": "1.2"
+    }
+}

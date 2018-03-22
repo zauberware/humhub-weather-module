@@ -1,4 +1,4 @@
-Module Weather 
+HumHub Module - Weather 
 =================
 
 Weather widget for dashboard.

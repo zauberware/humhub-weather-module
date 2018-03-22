@@ -1,0 +1,42 @@
+.weather-wrapper {
+  background: #ffffff;
+  color: #333;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+}
+
+.weather-wrapper.night{
+  background: #333;
+  color: #ffffff;
+}
+
+.weather-wrapper > *{
+  position: relative;
+  z-index: 1;
+}
+
+.weather-wrapper p{
+  margin-bottom: 5px;
+}
+
+.weather-icon{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0.9;
+}
+
+.weather-place{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.weather-temprature-wrapper{
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #c7d333;
+}
