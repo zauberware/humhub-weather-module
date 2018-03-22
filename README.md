@@ -1,17 +1,15 @@
 HumHub Module - Weather 
 =================
 
-Weather widget for dashboard.
-
-##Description
+Weather widget for dashboard. Works with api.openweathermap.org/data/2.5
 
 You are able to place the weather widget to the dashboard.
 
-##Setup Instructions:
 Install & Activate and set your location in configuration settings.
 
-##Author Details:
-<br />
+Dependencies:
+ - JS API wrapper https://github.com/michael-lynch/open-weather
 
-__Author:__       
+Author Details:
+   
 Simon Franzen - zauberware   
