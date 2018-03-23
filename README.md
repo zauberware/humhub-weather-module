@@ -11,6 +11,9 @@ This module attaches a simple weather widget in the dashboard's sidebar. Optain 
 
 As an admin you can define the location from where you want to show the current weather.
 
+## Dependencies
+
+The plugins includes the awesome jQuery wrapper for openweathermap API: <https://github.com/michael-lynch/open-weather>
     
 ## Installation
 1. Download the module and upload it to your modules directory >yourdomain.com>protected>modules
