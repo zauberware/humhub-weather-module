@@ -26,7 +26,7 @@ The plugins includes the awesome jQuery wrapper for openweathermap API: <https:/
 ## Open Tasks for v1.0
 * Remove last german translations and export keys
 * Translations german and english
-
+* load michael-lynch/open-weather with package manager
 
 ## Authors/Module Website
 
