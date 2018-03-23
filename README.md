@@ -26,6 +26,7 @@ The plugins includes the awesome jQuery wrapper for openweathermap API: <https:/
 ## Open Tasks for v1.0
 * Remove last german translations and export keys
 * Translations german and english
+* set language in js from current user language
 * load michael-lynch/open-weather with package manager
 * testing different HumHub versions
 
