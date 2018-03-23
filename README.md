@@ -2,7 +2,7 @@
 
 # [HumHub](https://github.com/humhub/humhub) Weather Widget
 
-** This plugin is under development. See Open tasks section **
+__!! This plugin is under development. See Open tasks section !!__
 
 This module is for HumHub Version 1.1+ (Yii 2) and greater and cannot be used with HumHub Version 0.1x (Yii 1.1)
 
@@ -27,10 +27,14 @@ The plugins includes the awesome jQuery wrapper for openweathermap API: <https:/
 * Remove last german translations and export keys
 * Translations german and english
 * load michael-lynch/open-weather with package manager
+* testing different HumHub versions
 
 ## Authors/Module Website
 
 __Module website:__ <https://github.com/zauberware/humhub-weather-module>  
 
 __Author website:__ [https://www.zauberware.com](https://www.zauberware.com)    
-__Author:__ Zauberware / Simon Franzen    
+__Author:__ zauberware technologies / Simon Franzen <simon@zauberware.com>  
+
+![zauberware technologies](https://avatars3.githubusercontent.com/u/1753330?s=200&v=4)
+
