@@ -1,18 +1,13 @@
 <?php
-
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2016 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
 namespace humhub\modules\weather;
 
 use Yii;
+use humhub\modules\weather\widgets\Weather;
 
 /**
- * Events for Weather Widget Module
+ * Events for Weather Module
  *
- * @author Simon Franzen
+ * @author Simon Franzen <simon@zauberware.com>
  */
 class Events extends \yii\base\Object
 {
@@ -21,7 +16,7 @@ class Events extends \yii\base\Object
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->addWidget(\humhub\modules\weather\widgets\Weather::className(), array(), array('sortOrder' => 101));
+        $event->sender->addWidget(Weather::className(), array(), array('sortOrder' => 101));
     }
 
 }

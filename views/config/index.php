@@ -1,15 +1,6 @@
-
 <?php
-
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2016 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
-
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
-
 ?>
 
 <div class="panel panel-default">

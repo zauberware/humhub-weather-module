@@ -1,20 +1,15 @@
 <?php
-
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2016 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
 namespace humhub\modules\weather\controllers;
 
 use Yii;
+use humhub\modules\weather\Module;
 use humhub\modules\weather\models\ConfigureForm;
 use \humhub\modules\admin\permissions\ManageSettings;
 
 /**
  * ConfigController handles the configuration requests.
  *
- * @author Simon Franzen
+ * @author Simon Franzen <simon@zauberware.com>
  */
 class ConfigController extends \humhub\modules\admin\components\Controller
 {

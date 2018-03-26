@@ -1,18 +1,11 @@
 <?php
-
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2017 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
-
 namespace humhub\modules\weather\widgets;
 
 use Yii;
 use yii\web\HttpException;
 
 /**
- * WeatherWidget shows the weather for current location of user.
+ * Weahter is the widget which shows the weather from given settings.
  *
  * @author Simon Franzen <simon@zauberware.com>
  */

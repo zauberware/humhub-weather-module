@@ -1,19 +1,13 @@
 <?php
-
-/**
- * @link https://www.humhub.org/
- * @copyright Copyright (c) 2016 HumHub GmbH & Co. KG
- * @license https://www.humhub.com/licences
- */
 namespace humhub\modules\weather;
 
 use yii\web\AssetBundle;
 use yii\web\View;
 
 /**
- * Assets for Weather Widget Module
+ * Assets for Weather Module
  *
- * @author Simon Franzen
+ * @author Simon Franzen <simon@zauberware.com>
  */
 class Assets extends AssetBundle
 {

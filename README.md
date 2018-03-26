@@ -4,14 +4,14 @@
 
 __!! This plugin is under development. See Open tasks section !!__
 
-This module is for HumHub Version 1.1+ (Yii 2) and greater and cannot be used with HumHub Version 0.1x (Yii 1.1)
+__This module is for HumHub Version 1.1+__
 
 
 ## Description
 
 This module attaches a simple weather widget in the dashboard's sidebar. It get's is data from <https://openweathermap.org/api>. You have to obtain an ApiKey first. 
 
-As an admin you can define the location from where you want to show the current weather.
+As an admin you can define the location from where you want to show the current weather. You can also choose Kelvin or Fahrenheit for displaying the temperature.
 
 ## Dependencies
 
@@ -24,11 +24,16 @@ The plugins includes the awesome jQuery wrapper for openweathermap API: <https:/
 4. Enter API Key and location
 
 ## Open Tasks for v1.0
-* Remove last german translations and export keys
-* Translations german and english
-* set language in js from current user language
 * load michael-lynch/open-weather with package manager
 * testing different HumHub versions
+
+## Changelog
+
+### v0.2
+* Removed last german translations and export keys
+* Translations german and english
+* set language in js from current user language
+
 
 ## Authors/Module Website
 

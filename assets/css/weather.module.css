@@ -1,5 +1,5 @@
 .weather-wrapper {
-  background: #ffffff;
+  background: #fff;
   color: #333;
   padding: 10px;
   overflow: hidden;
@@ -9,7 +9,7 @@
 
 .weather-wrapper.night{
   background: #333;
-  color: #ffffff;
+  color: #fff;
 }
 
 .weather-wrapper > *{
@@ -38,5 +38,5 @@
 .weather-temprature-wrapper{
   font-size: 1.6em;
   font-weight: bold;
-  color: #c7d333;
+  color: #ddd;
 }

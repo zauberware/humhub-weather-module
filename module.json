@@ -3,8 +3,8 @@
     "name": "Weather Widget",
     "description": "Display a weather widget in the dashboard.",
     "keywords": ["humhub", "module", "weather", "widget"],
-    "version": "0.1.1",
+    "version": "0.2",
     "humhub": {
-        "minVersion": "1.2"
+        "minVersion": "1.1"
     }
 }
