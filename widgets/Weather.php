@@ -18,11 +18,15 @@ class Weather extends \humhub\components\Widget
     public function run()
     {
         $module = Yii::$app->getModule('weather');
+        $color = Yii::$app->view->theme->variable('primary', '#ddd');
 
         return $this->render('weatherWidget', [
-            'assetsUrl' => $module->getAssetsUrl(),
-            'apiKey'    => $module->settings->get('apiKey'),
-            'city'      => $module->settings->get('city')
+            'assetsUrl'     => $module->getAssetsUrl(),
+            'apiKey'        => $module->settings->get('apiKey'),
+            'city'          => $module->settings->get('city'),
+            'temperature'   => $module->settings->get('temperature'),
+            'color'         => $color,
+            'lang'          => Yii::$app->language
         ]);
     }
 

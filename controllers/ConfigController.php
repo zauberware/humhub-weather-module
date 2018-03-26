@@ -29,18 +29,23 @@ class ConfigController extends \humhub\modules\admin\components\Controller
      */
     public function actionIndex()
     {
+        $temperatureTypes = Module::temperatureDisplayTypes();
+
         $form = new ConfigureForm();
         $manager = Yii::$app->getModule('weather')->settings;
         $form->apiKey = $manager->get('apiKey');
         $form->city = $manager->get('city');
+        $form->temperature = $manager->get('temperature');
 
         if ($form->load(Yii::$app->request->post()) && $form->validate()) {
             $manager->set('apiKey', $form->apiKey);
             $manager->set('city', $form->city);
+            $manager->set('temperature', $form->temperature);
         }
 
         return $this->render('index', array(
-            'model' => $form
+            'model' => $form,
+            'temperatureTypes' => $temperatureTypes
         ));
     }
 

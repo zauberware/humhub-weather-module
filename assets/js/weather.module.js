@@ -1,5 +1,7 @@
 humhub.module('weather', function(module, require, $) {
 
+	var weatherWidget = $('.weather-temperature');
+
     var assetsUrl = function() {
 		return module.config['assetsUrl'];
     };
@@ -12,37 +14,59 @@ humhub.module('weather', function(module, require, $) {
     	return module.config['city'];
     };
 
+    var color = function(){
+    	return module.config['color'];
+    };
+
+    var temperatureType = function(){
+    	return module.config['temperature'];
+    };
+
+    var lang = function(){
+    	return module.config['lang'];
+    };
+
+    var init = function(){
+
+    	// color from less var
+		$('.weather-temprature-wrapper').css({'color' : module.color()});
+		weatherWidget.openWeather({
+			descriptionTarget: '.weather-description',
+			maxTemperatureTarget: '.weather-max-temperature',
+			minTemperatureTarget: '.weather-min-temperature',
+			windSpeedTarget: '.weather-wind-speed',
+			humidityTarget: '.weather-humidity',
+			// sunriseTarget: '.missing', // currently we show nothing
+			// sunsetTarget: '.missing', // currently we show nothing
+			placeTarget: '.weather-place',
+			iconTarget: '.weather-icon',
+			customIcons: module.assetsUrl() + '/img/backgrounds/',
+			units: module.temperatureType(),
+			city: module.city(),
+			key: module.apiKey(),
+			lang: module.lang(),
+			success: function() {
+				weatherWidget.show();
+			},
+			error: function(message) {
+				console.log(message);
+			}
+		});
+    }
+
     module.export({
+    	initOnPjaxLoad: true,
         assetsUrl: assetsUrl,
         apiKey: apiKey,
-        city: city
+        lang: lang,
+        city: city,
+        temperatureType: temperatureType,
+        color: color,
+        init: init
     });
 });
 
 $(function() {
 
-	// alert('basicmodule mycity js initialized with variable: ' + mycityJsVar);
-	$('.weather-temperature').openWeather({
-		descriptionTarget: '.weather-description',
-		maxTemperatureTarget: '.weather-max-temperature',
-		minTemperatureTarget: '.weather-min-temperature',
-		windSpeedTarget: '.weather-wind-speed',
-		humidityTarget: '.weather-humidity',
-		// sunriseTarget: '.missing',
-		// sunsetTarget: '.missing',
-		placeTarget: '.weather-place',
-		iconTarget: '.weather-icon',
-		customIcons: humhub.modules.weather.assetsUrl() + '/img/backgrounds/',
-		units: 'c',
-		city: humhub.modules.weather.city(),
-
-		key: humhub.modules.weather.apiKey(),
-		lang: 'de',
-		success: function() {
-			$('.weather-temperature').show();
-		},
-		error: function(message) {
-			console.log(message);
-		}
-	});
+	
 });

@@ -8,13 +8,14 @@ use Yii;
 /**
  * ConfigureForm defines the configurable fields.
  *
- * @author Simon Franzen
+ * @author Simon Franzen <simon@zauberware.com>
  */
 class ConfigureForm extends \yii\base\Model
 {
 
     public $city;
     public $apiKey;
+    public $temperature;
 
     /**
      * Declares the validation rules.
@@ -29,6 +30,10 @@ class ConfigureForm extends \yii\base\Model
             array(
                 'apiKey',
                 'string'
+            ),
+            array(
+                'temperature',
+                'string'
             )
         );
     }
@@ -42,7 +47,10 @@ class ConfigureForm extends \yii\base\Model
     {
         return array(
             'city' => Yii::t('WeatherModule.base', 'Enter city like "Berlin, Germany"'),
-            'apiKey' => Yii::t('WeatherModule.base', 'OpenWeatherMap API Key')
+            'apiKey' => Yii::t('WeatherModule.base', 'OpenWeatherMap API Key'),
+            'temperature' => Yii::t('WeatherModule.base', 'Display temperature')
         );
     }
+
+    
 }
