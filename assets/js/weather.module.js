@@ -26,6 +26,10 @@ humhub.module('weather', function(module, require, $) {
     	return module.config['lang'];
     };
 
+    var windSpeedUnit = function(){
+    	return module.config['windSpeedUnit'];
+    };
+
     var init = function(){
 
     	// color from less var
@@ -45,6 +49,7 @@ humhub.module('weather', function(module, require, $) {
 			city: module.city(),
 			key: module.apiKey(),
 			lang: module.lang(),
+			windSpeedUnit: module.windSpeedUnit(),
 			success: function() {
 				weatherWidget.show();
 			},
@@ -59,6 +64,7 @@ humhub.module('weather', function(module, require, $) {
         assetsUrl: assetsUrl,
         apiKey: apiKey,
         lang: lang,
+        windSpeedUnit: windSpeedUnit,
         city: city,
         temperatureType: temperatureType,
         color: color,

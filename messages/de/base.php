@@ -17,12 +17,15 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    '<strong>Weather Widget</strong> configuration' => '<strong>Wetter Widget</strong> Einstellungen',
+    'Register your application on <a href="http://openweathermap.org/api" target="_blank">openweathermap.org</a> and obtain your API key.' => 'Registriere deine Anwendung unter <a href="http://openweathermap.org/api" target="_blank">openweathermap.org</a> und erhalte einen API Schlüssel.',
     'Display temperature' => 'Anzeige Temperatur',
+    '<strong>Weather Widget</strong> configuration' => '<strong>Wetter Widget</strong> Einstellungen',
     'Enter city like "Berlin, Germany"' => 'Gebe eine Stadt ein z.B. "Berlin, Germany"',
     'Fahrenheit' => 'Fahrenheit',
     'Humidity:' => 'Feuchtigkeit',
     'Kelvin' => 'Kelvin',
     'OpenWeatherMap API Key' => 'OpenWeatherMap API Schlüssel',
+    'Unit for temperature' => 'Einheit für Temperatur',
+    'Unit for windspeed' => 'Einheit für Windgeschwindigkeit',
     'Wind:' => 'Wind:',
 ];

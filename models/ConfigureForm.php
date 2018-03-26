@@ -1,6 +1,4 @@
 <?php
-
-
 namespace humhub\modules\weather\models;
 
 use Yii;
@@ -16,6 +14,7 @@ class ConfigureForm extends \yii\base\Model
     public $city;
     public $apiKey;
     public $temperature;
+    public $windSpeedUnit;
 
     /**
      * Declares the validation rules.
@@ -34,6 +33,10 @@ class ConfigureForm extends \yii\base\Model
             array(
                 'temperature',
                 'string'
+            ),
+            array(
+                'windSpeedUnit',
+                'string'
             )
         );
     }
@@ -48,7 +51,8 @@ class ConfigureForm extends \yii\base\Model
         return array(
             'city' => Yii::t('WeatherModule.base', 'Enter city like "Berlin, Germany"'),
             'apiKey' => Yii::t('WeatherModule.base', 'OpenWeatherMap API Key'),
-            'temperature' => Yii::t('WeatherModule.base', 'Display temperature')
+            'temperature' => Yii::t('WeatherModule.base', 'Unit for temperature'),
+            'windSpeedUnit' => Yii::t('WeatherModule.base', 'Unit for windspeed')
         );
     }
 

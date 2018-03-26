@@ -6,6 +6,7 @@ $this->registerJsConfig('weather', [
 	'color' => $color,
 	'temperature' => $temperature,
 	'assetsUrl' => $assetsUrl,
+	'windSpeedUnit' => $windSpeedUnit,
 	'apiKey' => $apiKey,
 	'lang' => $lang,
 	'city' => $city

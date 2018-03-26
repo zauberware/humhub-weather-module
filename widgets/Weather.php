@@ -25,6 +25,7 @@ class Weather extends \humhub\components\Widget
             'apiKey'        => $module->settings->get('apiKey'),
             'city'          => $module->settings->get('city'),
             'temperature'   => $module->settings->get('temperature'),
+            'windSpeedUnit' => $module->settings->get('windSpeedUnit'),
             'color'         => $color,
             'lang'          => Yii::$app->language
         ]);
