@@ -33,6 +33,9 @@ The plugins includes the awesome jQuery wrapper for openweathermap API: <https:/
 
 ## Changelog
 
+### v0.2.1
+* Adding option for windspeed in km/h OR Mps
+
 ### v0.2
 * Removed static translations and export keys
 * Translations german and english
