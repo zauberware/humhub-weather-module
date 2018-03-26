@@ -7,6 +7,9 @@ __!! This plugin is under development. See Open tasks section !!__
 __This module is for HumHub Version 1.1+__
 
 
+![HumHub Weather Widget](https://raw.githubusercontent.com/zauberware/humhub-weather-module/master/assets/sample.png)
+
+
 ## Description
 
 This module attaches a simple weather widget in the dashboard's sidebar. It get's is data from <https://openweathermap.org/api>. You have to obtain an ApiKey first. 
