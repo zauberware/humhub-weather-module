@@ -26,6 +26,7 @@ The plugins includes the awesome jQuery wrapper for openweathermap API: <https:/
 ## Open Tasks for v1.0
 * load michael-lynch/open-weather with package manager
 * testing different HumHub versions
+* Specs
 
 ## Changelog
 
