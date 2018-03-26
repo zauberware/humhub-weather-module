@@ -11,7 +11,7 @@ __This module is for HumHub Version 1.1+__
 
 This module attaches a simple weather widget in the dashboard's sidebar. It get's is data from <https://openweathermap.org/api>. You have to obtain an ApiKey first. 
 
-As an admin you can define the location from where you want to show the current weather. You can also choose Kelvin or Fahrenheit for displaying the temperature.
+As an admin you can define the location from where you want to show the current weather. You can also choose Kelvin or Fahrenheit for displaying the temperature. The title color in the widget is getting set by less variable `@primary` for that theme.
 
 ## Dependencies
 
@@ -35,6 +35,10 @@ The plugins includes the awesome jQuery wrapper for openweathermap API: <https:/
 * set language in js from current user language
 * set language in js from current user language
 * setting text color from less var @primary
+
+### v0.1
+* Basic module with config for API Key and Location
+* Include JS bib + old sourcecode
 
 
 ## Authors/Module Website
