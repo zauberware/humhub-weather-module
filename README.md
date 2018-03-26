@@ -2,13 +2,11 @@
 
 # [HumHub](https://github.com/humhub/humhub) Weather Widget
 
+![HumHub Weather Widget Day](https://raw.githubusercontent.com/zauberware/humhub-weather-module/master/assets/sample1.png) ![HumHub Weather Widget Night](https://raw.githubusercontent.com/zauberware/humhub-weather-module/master/assets/sample2.png)
+
 __!! This plugin is under development. See Open tasks section !!__
 
 __This module is for HumHub Version 1.1+__
-
-
-![HumHub Weather Widget Day](https://raw.githubusercontent.com/zauberware/humhub-weather-module/master/assets/sample1.png) ![HumHub Weather Widget Night](https://raw.githubusercontent.com/zauberware/humhub-weather-module/master/assets/sample2.png)
-
 
 ## Description
 
