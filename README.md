@@ -30,9 +30,11 @@ The plugins includes the awesome jQuery wrapper for openweathermap API: <https:/
 ## Changelog
 
 ### v0.2
-* Removed last german translations and export keys
+* Removed static translations and export keys
 * Translations german and english
 * set language in js from current user language
+* set language in js from current user language
+* setting text color from less var @primary
 
 
 ## Authors/Module Website
