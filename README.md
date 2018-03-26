@@ -7,7 +7,7 @@ __!! This plugin is under development. See Open tasks section !!__
 __This module is for HumHub Version 1.1+__
 
 
-![HumHub Weather Widget](https://raw.githubusercontent.com/zauberware/humhub-weather-module/master/assets/sample.png)
+![HumHub Weather Widget Day](https://raw.githubusercontent.com/zauberware/humhub-weather-module/master/assets/sample1.png) ![HumHub Weather Widget Night](https://raw.githubusercontent.com/zauberware/humhub-weather-module/master/assets/sample2.png)
 
 
 ## Description
