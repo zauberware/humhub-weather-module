@@ -35,6 +35,7 @@ humhub.module('weather', function(module, require, $) {
     	// color from less var
 		$('.weather-temprature-wrapper').css({'color' : module.color()});
 		weatherWidget.openWeather({
+            wrapperTarget: '.weather-wrapper',
 			descriptionTarget: '.weather-description',
 			maxTemperatureTarget: '.weather-max-temperature',
 			minTemperatureTarget: '.weather-min-temperature',
@@ -70,9 +71,4 @@ humhub.module('weather', function(module, require, $) {
         color: color,
         init: init
     });
-});
-
-$(function() {
-
-	
 });
