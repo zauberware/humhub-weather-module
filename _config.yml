@@ -2,6 +2,4 @@ title: HumHub Weather Module
 description: Weather widget for humhub community platform.
 show_downloads: true
 theme: jekyll-theme-cayman
-github:
-  zip_url: https://github.com/zauberware/humhub-weather-module/zipball/master
-  tar_url: https://github.com/zauberware/humhub-weather-module/tarball/master
+download: https://github.com/zauberware/humhub-weather-module/archive/master.zip
